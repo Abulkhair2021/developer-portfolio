@@ -8,7 +8,7 @@ h2{
 .ornage-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +39,35 @@ section{
 }
 .dream-text{
     padding-right: 110px;
+}
+.flexible{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experienc-item{
+    width: 50%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 10px;
+   border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-developer{
+ border-left: yellowgreen solid 5px;
+}
+#baby-developer{
+    border-left: solid 7px;
+    border-image: linear-gradient(yellow, green);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
 }
